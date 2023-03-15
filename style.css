@@ -1,0 +1,101 @@
+.body {
+    font-family: "Jost";
+}
+
+body {
+    padding-top: 3rem;
+}
+
+/* Calculator Form */
+#calculatorForm {
+    background-color: #CFCBA1;
+    border-radius: 1.5rem;
+}
+
+/* Calculator Heading */
+.calculatorHeading {
+    padding: 1rem;
+}
+.calculatorHeading h5 {
+    color: #ffffff;
+}
+
+/* Input Field */
+#inputField {
+    background-color: #3a3a3a;
+    border-color: #3a3a3a;
+    text-align: right !important;
+    border-radius: 0.4rem 0.4rem 0rem 0rem;
+}
+/* Output Field */
+#outputField {
+    background-color: #3a3a3a;
+    border-color: #3a3a3a;
+    text-align: right !important;
+    border-radius: 0rem 0rem 0.4rem 0.4rem;
+}
+
+/* variableName */
+#variableName {
+    background-color: #3a3a3a;
+    border-color: #3a3a3a;
+    padding-right:1rem;
+    margin: 0.1rem;
+}
+
+/* variableValue */
+#variableValue {
+    background-color: #3a3a3a;
+    border-color: #3a3a3a;
+    text-align: right !important;
+    margin: 0.1rem;
+}
+
+/* Variable Initialization Button */
+#initializeVariable {
+    background-color: #D4AB19;
+    margin-bottom: 2rem;
+}
+
+/* Buttons */
+#arithmeticBtns button {
+    background-color: #737373;
+    border-radius: 0.4rem;
+    font-size:xx-small;
+    width: 20%;
+    color: white;
+    margin: 0.1rem !important;
+}
+
+#numericBtns button {
+    background-color: #D4AB19;
+    border-radius: 0.4rem;
+    font-size:xx-small;
+    width: 20%;
+    margin: 0.1rem !important;
+}
+
+/* History */
+#history {
+    background-color: #393838;
+    color: #ffffff;
+    border-radius: 0.4rem 0.4rem 0.8rem 0.8rem;
+    padding-top: 1rem;
+}
+
+.historyItem {
+    border-top: 1px solid rgb(100, 100, 100);
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 1rem;
+    color: black;
+    font-size: 60%;
+}
+
+.historyItem>*:first-child {
+    padding-top: 1em;
+}
+
+.historyItem>*:last-child {
+    text-align: right;
+}
